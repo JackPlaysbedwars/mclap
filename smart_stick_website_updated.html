@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Stick - Mobility for the Visually Challenged and Elderly</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Smart Stick</h1>
+            <p class="slogan">Mobility for the Visually Challenged and Elderly</p>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Enhancing Independence</h2>
+                <p>The Smart Stick is designed to empower visually challenged individuals and the elderly by providing enhanced mobility and safety.</p>
+                <a href="#features" class="cta-button">Learn More</a>
+            </div>
+            <div class="hero-image">
+                <img src="prototype.jpg" alt="Smart Stick Design" id="main-image">
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <h2>Why Choose Smart Stick?</h2>
+            <div class="feature-list">
+                <div class="feature" onclick="showFeature('obstacle')">
+                    <i class="fas fa-eye"></i>
+                    <h3>Obstacle Detection</h3>
+                </div>
+                <div class="feature" onclick="showFeature('audio')">
+                    <i class="fas fa-volume-up"></i>
+                    <h3>Audio Navigation</h3>
+                </div>
+                <div class="feature" onclick="showFeature('construction')">
+                    <i class="fas fa-tools"></i>
+                    <h3>Quality Construction</h3>
+                </div>
+                <div class="feature" onclick="showFeature('addons')">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Multiple Add-ons</h3>
+                </div>
+            </div>
+            <div class="feature-description" id="feature-description">
+                <p>Click on a feature to learn more!</p>
+            </div>
+        </section>
+
+        <section class="comparison">
+            <h2>Comparison Table</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Traditional Walking Stick</th>
+                        <th>Smart Stick</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Price</td>
+                        <td>700 Rupees</td>
+                        <td>1250 Rupees</td>
+                    </tr>
+                    <tr>
+                        <td>Obstacle Detection</td>
+                        <td>No</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Audio Navigation</td>
+                        <td>No</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Portability</td>
+                        <td>No</td>
+                        <td>Yes (Retractable)</td>
+                    </tr>
+                    <tr>
+                        <td>Quality of Materials</td>
+                        <td>Standard</td>
+                        <td>High (Magnesium Alloy or Aluminum)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="view-360">
+            <h2>360-Degree View</h2>
+            <div class="image-container">
+                <img src="stick.jpg" alt="Smart Stick 360 View" class="rotate-image">
+            </div>
+            <p>Rotate the image to see the Smart Stick from all angles.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Smart Stick. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
